@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
-# Written by: David Lanstein ( lanstein yahoo com )
+# Written by: David Lanstein ( dlanstein gmail com )
 
 import string
 import sys
@@ -24,3 +24,5 @@ import sys
 class NotImplementedError(Exception):
     def __init__(self, name):
         Exception.__init__(self, name)
+
+__version__ = '0.1.5'
