@@ -99,6 +99,8 @@ searchRecords[] =
       originallyList = True
 
     for record in struct:
+      if not record:
+        continue
       for k, v in record:
         if isinstance(v, list):
           # At this point, we don't know whether a value of [] corresponds to '' or None
